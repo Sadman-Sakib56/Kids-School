@@ -228,6 +228,31 @@ hr {
     font-weight: 700;
 }
 
+.special-sign {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 100px;
+}
+
+.ball {
+    margin-top: 60px;
+    margin-right: 10px;
+    width: 60px;
+    height: 60px;
+    border-radius: 30px;
+    background: rgb(254, 163, 1);
+
+}
+
+.fa-less-than,
+.fa-greater-than {
+    color: white;
+    margin: 20px;
+    font-size: 1.4rem;
+    font-weight: 700px;
+}
+
 
 
 
@@ -295,6 +320,10 @@ hr {
         grid-template-columns: repeat(1, 1fr);
         gap: 20px;
         margin-left: 10px;
+    }
+
+    .special-sign {
+        display: none;
     }
 
 
