@@ -13,10 +13,10 @@
     padding: 0;
 }
 
-body {
+/* body {
     max-width: 1440px;
-    /* background-color: aquamarine; */
-}
+    background-color: aquamarine;
+} */
 
 .content-width {
     max-width: 1160px;
@@ -97,7 +97,8 @@ ul>li>a {
 hr {
     border: 1px solid #FEA301;
     margin-top: 10px;
-    width: 356px;
+    width: 98%;
+
 }
 
 
