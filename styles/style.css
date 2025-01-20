@@ -1,0 +1,130 @@
+/* for google fonts */
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+
+.quicksand-regular {
+    font-family: "Quicksand", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+/* common styles */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    max-width: 1440px;
+    /* background-color: aquamarine; */
+}
+
+.content-width {
+    max-width: 1160px;
+    margin: 0 auto;
+}
+
+.none {
+    display: none;
+}
+
+
+
+/* navbar styles */
+
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.navbar {
+    display: flex;
+    background-color: tomato;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.nav-items {
+    display: flex;
+    gap: 30px;
+}
+
+ul>li {
+    list-style: none;
+}
+
+ul>li>a {
+    text-decoration: none;
+    font-size: 1.25rem;
+    font-weight: 700;
+    color: #FEA301;
+}
+
+.span-2 {
+    color: #01ACFD;
+}
+
+.span-3 {
+    color: #05D4DF;
+}
+
+.span-4 {
+    color: #5D58EF;
+}
+
+.btn-menu {
+    width: 197px;
+    height: 50px;
+    border: none;
+    border-radius: 12px;
+    color: white;
+    font-size: 1.25rem;
+    font-weight: 600;
+    background: rgb(254, 163, 1);
+}
+
+.hambur {
+    display: none;
+}
+
+hr {
+    border: 1px solid #FEA301;
+    margin-top: 10px;
+}
+
+
+
+
+
+
+
+
+/* media queries style */
+
+@media screen and (max-width:576px) {
+
+    .menu-item,
+    .btn-menu,
+    .logo-title {
+        display: none;
+    }
+
+    .hambur {
+        display: block;
+        margin-right: 20px;
+    }
+
+    .horizontal-line {
+        color: rgb(254, 163, 1);
+    }
+
+    .for-phn {
+        display: block;
+    }
+
+
+
+
+
+}
