@@ -14,8 +14,8 @@
 }
 
 body {
-    /* max-width: 1440px; */
-    background-color: aquamarine;
+    max-width: 1440px;
+    /* background-color: aquamarine; */
 }
 
 .content-width {
@@ -55,7 +55,7 @@ body {
 
 .navbar {
     display: flex;
-    background-color: tomato;
+    /* background-color: tomato; */
     justify-content: space-between;
     align-items: center;
     margin-top: 20px;
@@ -97,7 +97,7 @@ ul>li>a {
 hr {
     border: 1px solid #FEA301;
     margin-top: 10px;
-    width: 310px;
+    width: 356px;
 }
 
 
@@ -152,7 +152,7 @@ hr {
     }
 
     .navbar {
-        width: 320px;
+        width: 356px;
     }
 
     .hambur {
@@ -175,7 +175,7 @@ hr {
     }
 
     .banner-info {
-        width: 310px;
+        width: 320px;
         height: 252px;
     }
 
