@@ -443,6 +443,16 @@ footer {
     margin-bottom: 5px;
 }
 
+marquee {
+    color: rgba(202, 3, 176, 0.888);
+    font-weight: 700px;
+    font-size: 2rem;
+    border: 2px solid rgb(18, 54, 109);
+    border-radius: 10px;
+    margin-top: 20px;
+
+}
+
 
 
 
